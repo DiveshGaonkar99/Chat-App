@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: https://chat-app-frontned-nvdw.onrender.com/,
+    origin: "https://chat-app-frontned-nvdw.onrender.com/",
   })
 );
 
